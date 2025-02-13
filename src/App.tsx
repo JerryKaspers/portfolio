@@ -1,5 +1,4 @@
 import './App.css'
-import {UserIcon} from "@heroicons/react/24/outline";
 import ExperienceCard from "./components/experiences/experienceCard.tsx";
 
 function App() {
@@ -25,10 +24,30 @@ function App() {
     return (
         <>
             <div>
-                {/*<UserIcon className="h-2 w-2 text-blue" />*/}
                 <h1>Hi! I'm Jerry Kaspers</h1>
-                <h2>A developer and tech geek by heart.</h2>
-                <p>I welcome you at my portfolio website.</p>
+                <h2>
+                    A developer and geek by heart with experiences in the following, but not limited to:<br />
+                    <i className="devicon devicon-apple-original"/>
+                    <i className="devicon-azure-plain"/>
+                    <i className="devicon-bootstrap-plain" />
+                    <i className="devicon-composer-plain" />
+                    <i className="devicon-debian-plain" />
+                    <i className="devicon-docker-plain" />
+                    <i className="devicon-git-plain" />
+                    <i className="devicon-jetbrains-plain" />
+                    <i className="devicon-mongodb-plain" />
+                    <i className="devicon-mysql-plain" />
+                    <i className="devicon-npm-original-wordmark" />
+                    <i className="devicon-php-plain" />
+                    <i className="devicon-phpstorm-plain" />
+                    <i className="devicon-postgresql-plain" />
+                    <i className="devicon-react-plain" />
+                    <i className="devicon-redux-plain" />
+                    <i className="devicon-ubuntu-plain" />
+                    <i className="devicon-vite-plain" />
+                    <i className="devicon-yii-plain" />
+                    <i className="devicon-zend-plain" />
+                </h2>
             </div>
             <div>
                 <table align={'center'}>
