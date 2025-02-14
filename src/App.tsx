@@ -1,5 +1,4 @@
 import './App.css'
-import ExperienceCard from "./components/experiences/experienceCard.tsx";
 import Experiences from "./pages/experiences.tsx";
 import UrlStack from "./components/urlStack/urlStack.tsx";
 import Projects from "./components/projects/projects.tsx";
@@ -35,6 +34,16 @@ function App() {
                 </h2>
             </div>
             <div>
+                <a href=''>
+                    <div className="mainCard">
+                        Projects
+                    </div>
+                </a>
+                <a href=''>
+                    <div className="mainCard">
+                        Experiences
+                    </div>
+                </a>
                 <Projects />
                 <UrlStack />
                 <Experiences />
